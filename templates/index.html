@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+  <title>OpenAI Text Completion Project</title>
+  <link
+    rel="shortcut icon"
+    href="{{ url_for('static', filename='dog.png') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body>
+  <img src="{{ url_for('static', filename='dog.png') }}" class="icon" />
+  <h3>OpenAI Text Completion</h3>
+  <form action="/" method="post">
+    <input type="text" name="text" placeholder="Give me something..." required />
+    <input type="submit" value="Complete" />
+  </form>
+  {% if result %}
+  <div class="result">{{ result }}</div>
+  {% endif %}
+</body>
