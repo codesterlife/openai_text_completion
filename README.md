@@ -42,3 +42,5 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
    ```
 
 You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
+
+Disclaimer: This is the clone of the original quickstart program given out by the OpenAI team. This project was built on top of the existing codebase and not originally written by myself. Big Thanks to the OpenAI team for providing such a hassle-free demo-ing experience.
